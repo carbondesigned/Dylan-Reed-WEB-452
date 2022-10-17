@@ -26,6 +26,12 @@ namespace web452_assignment1.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }public IActionResult Catalogue()
+        {
+            return View();
+        }public IActionResult About()
+        {
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

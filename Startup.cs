@@ -34,6 +34,13 @@ namespace web452_assignment1
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
            services.AddRazorPages();
+
+            //services.AddDbContext<ApplicationDbContext>(options =>
+            //{
+            //    var connectionString = Configuration.GetConnectionString("ProductContext");
+
+            //    options.UseSqlite(connectionString);
+            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
